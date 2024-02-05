@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.card-details {
+  padding: 16px;
+}
+
+.card-name {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  margin-bottom: 8px;
+}
+
+.card-price {
+  font-weight: bold;
+}
